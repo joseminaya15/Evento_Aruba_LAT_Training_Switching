@@ -25,7 +25,7 @@
     <body>
         <div class="js-header">
             <div class="js-header--left">
-                <img src="<?php echo RUTA_IMG?>logo/aruba-logo.png">
+                <img src="<?php echo RUTA_IMG?>logo/logo-aruba.png">
             </div>
             <div class="js-header--right">
                 <p>Partner Training: ARUBA OS - Switching  LATAM</p>

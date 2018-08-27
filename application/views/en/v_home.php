@@ -25,7 +25,7 @@
     <div class="js-header">
         <div class="js-header--container">
             <div class="js-header--left">
-                <img src="<?php echo RUTA_IMG?>logo/aruba-logo.png">
+                <img src="<?php echo RUTA_IMG?>logo/logo-aruba.png">
             </div>
             <div class="js-header--right">
                 <p>P&aacute;gina de Registro</p>
@@ -40,14 +40,122 @@
                     <h2>ARUBA OS - Switching Partner Training - LATAM</h2>
                     <p>Visibility, automation and security Challenges of the Moblie-cloud and IoT</p>
                     <div class="js-contido__button">
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Agenda</button>
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Register</button>
+                        <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">Agenda</a>
+                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Register</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="register" class="js-section">
+    <section id="agenda" class="js-section">
+        <div class="js-container">
+            <h2 class="js-title">AGENDA</h2>
+            <div class="js-card">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">WED, 26 SEPTEMBER</a></li>
+                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">THU, 27 SEPTEMBER</a></li>
+                    <li><a href="#agosto9" aria-controls="agosto9" role="tab" data-toggle="tab">FRI, 28 SEPTEMBER</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="agosto7">
+                        <div class="table-responsive js-table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-xs-2">12:00 - 12:25 PM</td>
+                                        <td>Transportation provided to training</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">12:30 - 1:30 PM</td>
+                                        <td>Lunch</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">1:30 - 5:00 PM</td>
+                                        <td>Training</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="agosto8">
+                        <div class="table-responsive js-table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-xs-2">7:00 - 8:30 AM</td>
+                                        <td>Breakfast in hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">8:45 - 9:00 AM</td>
+                                        <td>Transportation provided to training</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">9:00 - 12:30 PM</td>
+                                        <td>Training</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">12:30 - 1:30 PM</td>
+                                        <td>Lunch</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">1:30 - 5:00 PM</td>
+                                        <td>Training</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="agosto9">
+                        <div class="table-responsive js-table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-xs-2">7:00 - 8:30 AM</td>
+                                        <td>Breakfast in hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">8:45 - 9:00 AM</td>
+                                        <td>Transportation provided to training</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">9:00 - 12:30 PM</td>
+                                        <td>Training</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">12:30 - 1:30 PM</td>
+                                        <td>Lunch</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">1:30 - 5:00 PM</td>
+                                        <td>Training</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="register" class="js-section js-white">
         <div class="js-container">
             <div class="js-information">
                 <h2>September 26 - 28, 2018</h2>
@@ -55,18 +163,18 @@
                 <span>Miami, Fl</span>
             </div>
             <div class="js-title">
-                <h2>Reg&iacute;strese completando el siguiente formulario</h2>
+                <h2>Register by completing the next form</h2>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="js-input">
-                        <label for="text">Nombre*</label>
+                        <label for="text">First Name*</label>
                         <input type="text" id="name">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="js-input">
-                        <label for="text">Apellido*</label>
+                        <label for="text">Last Name*</label>
                         <input type="text" id="surname">
                     </div>
                 </div>
@@ -78,31 +186,31 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class=" js-input">
-                        <label for="text">Teléfono*</label>
+                        <label for="text">Mobile Phone Number*</label>
                         <input type="text" id="phone">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                      <div class=" js-input">
-                        <label for="text">Empresa*</label>
+                        <label for="text">Company*</label>
                         <input type="text" id="company" >
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class=" js-input">
-                        <label for="text">Cargo*</label>
+                        <label for="text">Job Title*</label>
                         <input type="text" id="position">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class=" js-input">
-                        <label for="text">País*</label>
+                        <label for="text">Country*</label>
                         <input type="text" id="country">
                     </div>
                 </div>
             </div>
             <div class="js-section--button text-left">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendInformation()">Enviar</button>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendInformation()">Send</button>
             </div>
             <div id="confirmation" class="js-confirmation">
                 <h2>Registro realizado correctamente. Lo esperamos</h2>
@@ -110,12 +218,11 @@
         </div>
     </section>
     <section id="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.020770053299!2d-84.09455668520636!3d9.932227992897616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fac2d63f6fed%3A0xcb764617b4262c9a!2sPark+Inn+by+Radisson+San+Jose%2C+Costa+Rica!5e0!3m2!1ses!2spe!4v1533166555929" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.4816992614856!2d-80.34043284950413!3d25.820667983529603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bbdc99f08e09%3A0x9a255d0a2eac232a!2sProvident+Doral+at+The+Blue+Miami!5e0!3m2!1ses!2spe!4v1535411562106" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
     <footer class="js-section">
         <div class="js-container text-center">
-            <p class="content">Intel and the Intel logo are trademarks of the Corporation in the United States and / or other countries.</p>
-            <p>&copy;Copyright 2018 Hewlett Packard Enterprice Development LP</p>
+            <p>Copyright &copy; 2018. Aruba, a Hewlett Packard Enterprise company. Todos los derechos reservados 3333 Scott Blvd, Santa Clara, CA 95054,</p>
         </div>
     </footer>
     <!--MODAL-->
@@ -183,12 +290,12 @@
     <script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
-    <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_JS?>jsindex_en.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        // var URLactual = window.location;
-        // if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/'){
-        //     location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/';
-        // }
+        var URLactual = window.location;
+        if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/en/'){
+            location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/en/';
+        }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {

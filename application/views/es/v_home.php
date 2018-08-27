@@ -40,14 +40,122 @@
                     <h2>ARUBA OS - Switching Partner Training - LATAM</h2>
                     <p>Visibilidad, automatizaci&oacute;n y Seguridad: Los desaf&iacute;os de la Nube m&oacute;vil y la IoT</p>
                     <div class="js-contido__button">
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-button--default">Agenda</button>
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button">Registro</button>
+                        <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">Agenda</a>
+                        <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Registro</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="register" class="js-section">
+    <section id="agenda" class="js-section">
+        <div class="js-container">
+            <h2 class="js-title">AGENDA</h2>
+            <div class="js-card">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">MIE, 26 SETIEMBRE</a></li>
+                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">JUE, 27 SETIEMBRE</a></li>
+                    <li><a href="#agosto9" aria-controls="agosto9" role="tab" data-toggle="tab">VIE, 28 SETIEMBRE</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="agosto7">
+                        <div class="table-responsive js-table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-xs-2">12:00 - 12:25 PM</td>
+                                        <td>Traslado del Hotel al entrenamiento</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">12:30 - 1:30 PM</td>
+                                        <td>Almuerzo</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">1:30 - 5:00 PM</td>
+                                        <td>Entrenamiento</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="agosto8">
+                        <div class="table-responsive js-table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-xs-2">7:00 - 8:30 AM</td>
+                                        <td>Desayuno en el hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">8:45 - 9:00 AM</td>
+                                        <td>Transporte del hotel al entrenamiento</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">9:00 - 12:30 PM</td>
+                                        <td>Entrenamiento</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">12:30 - 1:30 PM</td>
+                                        <td>Almuerzo</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">1:30 - 5:00 PM</td>
+                                        <td>Entrenamiento</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="agosto9">
+                        <div class="table-responsive js-table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-xs-2">7:00 - 8:30 AM</td>
+                                        <td>Desayuno en el hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">8:45 - 9:00 AM</td>
+                                        <td>Transporte del hotel al entrenamiento</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">9:00 - 12:30 PM</td>
+                                        <td>Entrenamiento</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">12:30 - 1:30 PM</td>
+                                        <td>Almuerzo</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-2">1:30 - 5:00 PM</td>
+                                        <td>Entrenamiento</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="register" class="js-section js-white">
         <div class="js-container">
             <div class="js-information">
                 <h2>Del 26 al 28 de Septiembre, 2018</h2>
@@ -110,12 +218,11 @@
         </div>
     </section>
     <section id="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.020770053299!2d-84.09455668520636!3d9.932227992897616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fac2d63f6fed%3A0xcb764617b4262c9a!2sPark+Inn+by+Radisson+San+Jose%2C+Costa+Rica!5e0!3m2!1ses!2spe!4v1533166555929" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.4816992614856!2d-80.34043284950413!3d25.820667983529603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bbdc99f08e09%3A0x9a255d0a2eac232a!2sProvident+Doral+at+The+Blue+Miami!5e0!3m2!1ses!2spe!4v1535411562106" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
     <footer class="js-section">
         <div class="js-container text-center">
-            <p class="content">Intel and the Intel logo are trademarks of the Corporation in the United States and / or other countries.</p>
-            <p>&copy;Copyright 2018 Hewlett Packard Enterprice Development LP</p>
+            <p>Copyright &copy; 2018. Aruba, a Hewlett Packard Enterprise company. Todos los derechos reservados 3333 Scott Blvd, Santa Clara, CA 95054,</p>
         </div>
     </footer>
     <!--MODAL-->
@@ -183,12 +290,12 @@
     <script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
-    <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_JS?>jsindex_es.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        // var URLactual = window.location;
-        // if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/'){
-        //     location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/';
-        // }
+        var URLactual = window.location;
+        if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/es/'){
+            location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/es/';
+        }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {
