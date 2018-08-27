@@ -66,7 +66,7 @@ function sendInformation(){
 				Company	    : company,
 				Position    : position,
 				Country	    : country},
-		url  : 'en/register',
+		url  : 'home/register',
 		type : 'POST'
 	}).done(function(data){
 		try {

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class En extends CI_Controller {
+class Home extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->helper("url");//BORRAR CACHÉ DE LA PÁGINA
@@ -14,7 +14,7 @@ class En extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('en/v_home');
+		$this->load->view('es/v_home');
 	}
 
 	function register(){
