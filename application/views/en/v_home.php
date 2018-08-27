@@ -37,8 +37,12 @@
         <div class="js-container">
             <div class="js-home js-flex">
                 <div class="js-contenido">
-                    <h2>Virtualizaci&oacute;n, una soluci&oacute;n</h2>
-                    <p>Genere valor a la red del centro de datos con una soluci&oacute;n de virtualizaci&oacute;n de HPE y NSX</p>
+                    <h2>ARUBA OS - Switching Partner Training - LATAM</h2>
+                    <p>Visibility, automation and security Challenges of the Moblie-cloud and IoT</p>
+                    <div class="js-contido__button">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Agenda</button>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Register</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -46,9 +50,9 @@
     <section id="register" class="js-section">
         <div class="js-container">
             <div class="js-information">
-                <h2>Martes 28 de Agosto, 2018 | 8:00 am - 11:30 am</h2>
-                <p>Hotel Park Inn by Radisson Sal&oacute;n Red A </p>
-                <span>Av 6, San Jos&eacute;, Costa Rica</span>
+                <h2>September 26 - 28, 2018</h2>
+                <p>Hotel Provident at the Blue</p>
+                <span>Miami, Fl</span>
             </div>
             <div class="js-title">
                 <h2>Reg&iacute;strese completando el siguiente formulario</h2>
