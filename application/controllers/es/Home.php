@@ -153,8 +153,9 @@ a.white {
 										  <font style="font-family: arial; font-size: 16px; color: #646569;">
 										    Estimado Socio de Negocio:<br>
 										    <br>
-										    Lo invitamos a realizar su reserva de hotel para asegurar su cupo. <br>
-La tarifa corporativa aprobada para el evento es USD129 + 13% de impuestos. (no aplica para fin de semana<br>
+											  <span style="color: #000"><strong>¡No olvide hacer su reservación en el hotel</strong> </span> para asegurar su cupo!. <br>
+										    <br>
+La tarifa corporativa  para los participantes del entrenamiento es: USD129 + 13% de impuestos. (no aplica para fin de semana)<br>
 										    <br>
 											  Actividades complementarias incluidas:<br><ul>
 												<li style="padding-bottom: 7px">Desayuno diario</li>
@@ -163,14 +164,15 @@ La tarifa corporativa aprobada para el evento es USD129 + 13% de impuestos. (no 
 												<li style="padding-bottom: 7px">Uso del gimnasio 24 horas incluído</li>
 												<li style="padding-bottom: 7px">Llamadas complementarias locales y 800s</li>
 											</ul>
-										¡Nos vemos en Miami!
-										  </font>
+											  Su inscripción incluye los traslados diarios desde el hotel hasta la sala de entrenamiento en las oficinas de Ingram Micro, según la agenda.<br>
+											  <br>
+¡Nos vemos en Miami! </font>
 										</td>
 									</tr>
 													<tr>
 													  <td height="15" style="line-height: 0px; font-size: 0px;border-bottom:1px solid #CCC"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="15" style="display: block;"></td>
 								  </tr>								            <tr>
-									              <td width="560" height="40" align="left" bgcolor="#99DAF8"><font style="font-family: arial; font-size: 18px; color: rgb(255, 255, 255); text-decoration: none; font-weight: bold;padding-left: 10px">Lugar del Evento</font></td>
+									              <td width="560" height="40" align="left" bgcolor="#f48120"><font style="font-family: arial; font-size: 18px; color: rgb(255, 255, 255); text-decoration: none; font-weight: bold;padding-left: 10px">RESERVE SU HABITACIÓN AHORA!</font></td>
 					              </tr>
 																						<tr>
                 <td height="5" style="line-height: 0px; font-size: 0px;border-bottom:1px solid #CCC"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="5" style="display: block;"></td>
@@ -180,11 +182,13 @@ La tarifa corporativa aprobada para el evento es USD129 + 13% de impuestos. (no 
   <tbody>
   
     <tr>
-      <td width="138" style="padding: 5px; background: #f5f5f5"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/Hotel_Providene_pic.jpg" width="120" height="120" alt=""/></td>
-      <td width="422" height="100" valign="middle" style="padding: 15px 15px 15px 0px; background: #f5f5f5"><font style="font-family: arial; font-size: 16px; color:#696a6d; line-height: 16px"><b>Hotel Provident Doral At The Blue</b><br></font>
+      <td width="138" style="padding: 5px; background: #f5f5f5"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/Hotel_Providene_pic.jpg" width="189" height="189" alt=""/></td>
+      <td width="422" height="100" valign="middle" style="padding: 15px 15px 15px 15px; background: #f5f5f5"><p><font style="font-family: arial; font-size: 18px; color:#696a6d; line-height: 18px"><b>Hotel Provident Doral At The Blue</b><br>
+        </font>
         <font style="font-family: arial; font-size: 14px; color:#696a6d; line-height: 18px">5300 NW 87 Avenue <br>
-        Miami, FL, USA, 33178<br>
-        <a href="https://www.youtube.com/watch?v=IZH0bs5YJGw&feature=youtu.be">Ver tour virtual </a></font></td>
+          Miami, FL, USA, 33178<br>
+          <a href="https://www.youtube.com/watch?v=IZH0bs5YJGw&feature=youtu.be">Ver tour virtual </a></font></p>
+                <p>Haga su reservación <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__gc.synxis.com_rez.aspx-3FHotel-3D62100-26Chain-3D10494-26Dest-3DMIA-26template-3DGCF-26shell-3Ddefault-26start-3Davailresults-26locale-3Den-2DUS-26promo-3DINGR&d=DwMGaQ&c=--1RjWWBW4Kf6aBAaj53vPItwfT0BR1YjSDV46P5EvE&r=hqlRCpF75xJ1-iwc_yi-pFNabiouexLK2hU8SxZHKlE&m=JYH8P1h_G5oC-kIEep2blciyDe5xutwQlYGsXHDEViw&s=qXmvrmb9z8oGzpjh9hqBifk2hvtyn9FNeIfnypbPYCk&e=">aquí</a></p></td>
       </tr>
    
   </tbody>

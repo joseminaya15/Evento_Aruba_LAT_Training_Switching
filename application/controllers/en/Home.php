@@ -153,8 +153,9 @@ a.white {
 										  <font style="font-family: arial; font-size: 16px; color: #646569;">
 										    Dear Business Partner:<br>
 										    <br>
-										    Thank you for your registration. We suggest you to book your stay at the designated hotel.<br>
-										    Corporate Rate: $129 per night + 13% taxes
+								          <strong>BOOK YOUR ROOM NOW!</strong> We suggest you to reserve your stay at the designated hotel.<br>
+								          <br>
+										    Corporate Rate for attendees is $129 per night + 13% taxes
 										    (3 week nights during training).<br>
 										    <br>
 											  Complementary amenities:<br><ul>
@@ -164,15 +165,17 @@ a.white {
 												<li style="padding-bottom: 7px">24 Hr. Gym</li>
 												<li style="padding-bottom: 7px">All Local Calls, and 1-800 numbers with in the US</li>
 											</ul>
-										¡See you in Miami!
-										  </font>
+											  Your registration includes daily transfers from the hotel to the training room at Ingram Micro facilities, according to the agenda.
+									      <br>
+										    <br>
+									      ¡See you in Miami! </font>
 										</td>
 									</tr>
 													<tr>
                 <td height="15" style="line-height: 0px; font-size: 0px;border-bottom:1px solid #CCC"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="15" style="display: block;"></td>
               </tr>
 									            <tr>
-									              <td width="560" height="40" align="left" bgcolor="#99DAF8"><font style="font-family: arial; font-size: 18px; color: rgb(255, 255, 255); text-decoration: none; font-weight: bold;padding-left: 10px">Venue</font></td>
+									              <td width="560" height="40" align="left" bgcolor="#f48120"><font style="font-family: arial; font-size: 18px; color: rgb(255, 255, 255); text-decoration: none; font-weight: bold;padding-left: 10px">BOOK YOUR ROOM TODAY!</font></td>
 					              </tr>
 																						<tr>
                 <td height="5" style="line-height: 0px; font-size: 0px;border-bottom:1px solid #CCC"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="5" style="display: block;"></td>
@@ -182,12 +185,14 @@ a.white {
   <tbody>
   
     <tr>
-      <td width="138" style="padding: 5px; background: #f5f5f5"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/Hotel_Providene_pic.jpg" width="120" height="120" alt=""/></td>
-      <td width="422" height="100" valign="middle" style="padding: 15px 15px 15px 0px; background: #f5f5f5"><font style="font-family: arial; font-size: 16px; color:#696a6d; line-height: 16px"><b>Hotel Provident Doral At The Blue</b><br></font>
+      <td width="138" style="padding: 5px; background: #f5f5f5"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/Hotel_Providene_pic.jpg" width="189" height="189" alt=""/></td>
+      <td width="422" height="100" valign="middle" style="padding: 15px 15px 15px 15px; background: #f5f5f5"><p><font style="font-family: arial; font-size: 18px; color:#696a6d; line-height: 18px"><b>Hotel Provident Doral At The Blue</b><br>
+        </font>
         <font style="font-family: arial; font-size: 14px; color:#696a6d; line-height: 18px">5300 NW 87 Avenue <br>
-        Miami, FL, USA, 33178<br>        
-        <a href="https://www.youtube.com/watch?v=IZH0bs5YJGw&feature=youtu.be">Link virtual tour</a>
-        </font></td>
+          Miami, FL, USA, 33178<br>
+          <a href="https://www.youtube.com/watch?v=IZH0bs5YJGw&feature=youtu.be">Take the virtual tour </a></font><br>
+      </p>
+        <p>Make your reservation <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__gc.synxis.com_rez.aspx-3FHotel-3D62100-26Chain-3D10494-26Dest-3DMIA-26template-3DGCF-26shell-3Ddefault-26start-3Davailresults-26locale-3Den-2DUS-26promo-3DINGR&d=DwMGaQ&c=--1RjWWBW4Kf6aBAaj53vPItwfT0BR1YjSDV46P5EvE&r=hqlRCpF75xJ1-iwc_yi-pFNabiouexLK2hU8SxZHKlE&m=JYH8P1h_G5oC-kIEep2blciyDe5xutwQlYGsXHDEViw&s=qXmvrmb9z8oGzpjh9hqBifk2hvtyn9FNeIfnypbPYCk&e=">here</a></p></td>
       </tr>
    
   </tbody>
