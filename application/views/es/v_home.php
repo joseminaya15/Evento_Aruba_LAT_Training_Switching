@@ -52,9 +52,9 @@
             <h2 class="js-title">AGENDA</h2>
             <div class="js-card">
                 <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">MIE, 26 SETIEMBRE</a></li>
-                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">JUE, 27 SETIEMBRE</a></li>
-                    <li><a href="#agosto9" aria-controls="agosto9" role="tab" data-toggle="tab">VIE, 28 SETIEMBRE</a></li>
+                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">MIE, 26 SEPTIEMBRE</a></li>
+                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">JUE, 27 SEPTIEMBRE</a></li>
+                    <li><a href="#agosto9" aria-controls="agosto9" role="tab" data-toggle="tab">VIE, 28 SEPTIEMBRE</a></li>
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="agosto7">
@@ -213,7 +213,9 @@
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendInformation()">Enviar</button>
             </div>
             <div id="confirmation" class="js-confirmation">
-                <h2>Registro realizado correctamente. Lo esperamos</h2>
+                <h2>Gracias por registrarse.</h2>
+                <p>Lo invitamos a realizar su reserva de hotel para asegurar su cupo</p>
+                <a href="https://gc.synxis.com/rez.aspx?Hotel=62100&Chain=10494&Dest=MIA&template=GCF&shell=default&start=availresults&locale=en-US&promo=INGR" target="_blank">Hotel Provident at the Blue - Miami</a>
             </div>
         </div>
     </section>
@@ -292,10 +294,10 @@
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsindex_es.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        // var URLactual = window.location;
-        // if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/es/'){
-        //     location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/es/';
-        // }
+        var URLactual = window.location;
+        if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/es/'){
+            location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/es/';
+        }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {

@@ -28,7 +28,7 @@
                 <img src="<?php echo RUTA_IMG?>logo/logo-aruba.png">
             </div>
             <div class="js-header--right">
-                <p>P&aacute;gina de Registro</p>
+                <p>Registration Page</p>
             </div>
         </div>
     </div>
@@ -37,8 +37,8 @@
         <div class="js-container">
             <div class="js-home js-flex">
                 <div class="js-contenido">
-                    <h2>ARUBA OS - Switching Partner Training - LATAM</h2>
-                    <p>Visibility, automation and security Challenges of the Mobile-cloud and IoT</p>
+                    <h2>ARUBA OS - Switching Partner Training - LAT</h2>
+                    <p>Visibility, automation and security: The challenges of the Mobile-cloud and IoT</p>
                     <div class="js-contido__button">
                         <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">Agenda</a>
                         <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Register</a>
@@ -52,9 +52,9 @@
             <h2 class="js-title">AGENDA</h2>
             <div class="js-card">
                 <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">WED, 26 SEPTEMBER</a></li>
-                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">THU, 27 SEPTEMBER</a></li>
-                    <li><a href="#agosto9" aria-controls="agosto9" role="tab" data-toggle="tab">FRI, 28 SEPTEMBER</a></li>
+                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">Wednesday 26</a></li>
+                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">Thursday 27</a></li>
+                    <li><a href="#agosto9" aria-controls="agosto9" role="tab" data-toggle="tab">Friday 28</a></li>
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="agosto7">
@@ -163,7 +163,7 @@
                 <span>Miami, Fl</span>
             </div>
             <div class="js-title">
-                <h2>Register by completing the next form</h2>
+                <h2>Register by completing the form below</h2>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -213,7 +213,9 @@
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect js-button js-login" onclick="sendInformation()">Send</button>
             </div>
             <div id="confirmation" class="js-confirmation">
-                <h2>Registro realizado correctamente. Lo esperamos</h2>
+                <h2>Thank you for your registration</h2>
+                <p>Please book your stay now!</p>
+                <a href="https://gc.synxis.com/rez.aspx?Hotel=62100&Chain=10494&Dest=MIA&template=GCF&shell=default&start=availresults&locale=en-US&promo=INGR" target="_blank">Hotel Provident at the Blue - Miami</a>
             </div>
         </div>
     </section>
@@ -292,10 +294,10 @@
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsindex_en.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        // var URLactual = window.location;
-        // if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/en/'){
-        //     location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/en/';
-        // }
+        var URLactual = window.location;
+        if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/en/'){
+            location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/en/';
+        }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {

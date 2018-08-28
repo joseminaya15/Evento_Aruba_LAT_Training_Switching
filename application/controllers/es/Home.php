@@ -66,45 +66,174 @@ class Home extends CI_Controller {
 			                     'charset'   => 'utf-8',
 			                     'newline'   => "\r\n");    
 			$this->email->initialize($configGmail);
-			$this->email->from('info@marketinghpe.com');
+			$this->email->from('confirmacion@arubamarketing.net');
 			$this->email->to($correo);
 			// $this->email->to('jose.minayac15@gmail.com');
-			$this->email->subject('HPE - Gracias por registrarse en nuestro evento.');
-			$texto = '<!DOCTYPE html>
-			                <html>
-			                    <body>
-			                        <table width="500px" cellpadding="0" cellspacing="0" align="center" style="border: solid 1px #ccc;">
-			                            <tr>
-			                                <td>
-			                                    <table width="500" cellspacing="0" cellpadding="0" border="0" align="center" style="background-color: #415564;padding: 15px 20px;">
-			                                        <tr>
-			                                            <td>
-			                                                <table>
-			                                                    <tr>
-			                                                        <td><a href="#"><img src="http://www.marketinghp.net/microsite/DCN/evento_cr/public/img/logo/hpe-vmware.png" width="240" alt="alternative text" border="0" style="display: block;"></a></td>
-			                                                        <td></td>
-			                                                    </tr>
-			                                                </table>
-			                                            </td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                            </tr>
-			                            <tr>
-			                                <td>
-			                                    <table width="400" cellspacing="0" cellpadding="0" border="0" align="center" style="padding: 30px 0">
-			                                        <tr>
-			                                            <td style="text-align: center;padding: 0;margin: 0;padding-bottom: 10px"><font style="font-family: arial;color: #000000;font-size: 18px;font-weight: 600">Muchas gracias.<br> Su registro ha sido realizado con éxito.</font></td>
-			                                        </tr>
-			                                        <tr>
-			                                            <td style="text-align: center;"><font style="font-family: arial;color: #757575;font-size: 12px;">&copy;Copyright 2018 Hewlett Packard Enterprice Development LP</font></td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                            </tr>
-			                        </table>
-			                    </body>
-			                </html>';
+			$this->email->subject('Aruba - Gracias por confirmar tu participación en el entrenamiento en Miami');
+			$texto = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=600" />
+<link rel="icon" type="image/x-icon" href="http://www.arubanetworks.com/wp-content/themes/Aruba2015/aruba.favicon.32.32.ico">
+<link rel="apple-touch-icon-precomposed" sizes="16x16" href="http://www.arubanetworks.com/wp-content/themes/Aruba2015/aruba.favicon.16x16.ico">
+<title>Aruba a Hewlett Packard Enterprise</title>
+<style type="text/css">
+body {
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0 auto
+}
+img {
+	border: none
+}
+table td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px
+}
+a.gray {
+	color: #767676
+}
+a.white {
+	color: #FFF;
+	text-decoration: none
+}
+</style>
+</head>
+<body>
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #ccc">
+  <tbody>
+    <tr>
+      <td align="right" style="padding:10px 20px 10px 10px; border-bottom:1px solid #CCC"><font style="font-size:12px; color:#767676">Aruba LAT Partner Training | <a class="gray" href="http://www.arubamarketing.net/eblast/lat_switching_training/default_spl.html">versión web</a></font></td>
+    </tr>
+    <tr>
+      <td style="background-color:#FFF; padding:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="140"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/aruba-logo_137x72px.png" width="135" height="70" alt=""/></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr>
+      <td style="background-color:#FFF"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/header.jpg" width="600" height="185" alt=""/></td>
+    </tr>
+	  <tr>
+				<td style="background-color:#FFF; padding:0 20px 20px 20px">
+					<table width="560" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" align="center">
+						<tr>
+							<td>
+								<table cellspacing="0" cellpadding="0" border="0" align="center">
+									<tr>
+										<td width="560" height="20" style="line-height: 0px; font-size: 0px;"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="20" style="display: block;"></td>
+									</tr>
+									<tr>
+										<td align="left" style="padding: 10px">
+											<font style="font-family: arial; font-size:28px; line-height:30px; color:#f48120; text-decoration: none;">
+											Gracias por su registro.</font>
+										</td>
+									</tr>
+									<tr>
+										<td width="560" height="5" style="line-height: 0px; font-size: 0px;"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="10" style="display: block;"></td>
+									</tr>
+																		<tr>
+										<td align="left" style="background-color:#9ed3c8; padding: 10px">
+											<font style="font-family: arial; font-size: 19px; color:#FFF; text-decoration: none;">
+											Entrenamiento en Aruba OS &amp; Switching para Canales LAT<br>
+											Del 26 al 28 de Septiembre, 2018<br>
+											Miami, FL											</font></td>
+									</tr>
+																		<tr>
+										<td width="560" height="15" style="line-height: 0px; font-size: 0px;"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="15" style="display: block;"></td>
+									</tr>
+									<tr>
+										<td align="left" style="padding-left: 10px; padding-right: 40px">
+										  <font style="font-family: arial; font-size: 16px; color: #646569;">
+										    Estimado Socio de Negocio:<br>
+										    <br>
+										    Lo invitamos a realizar su reserva de hotel para asegurar su cupo. <br>
+La tarifa corporativa aprobada para el evento es USD129 + 13% de impuestos. (no aplica para fin de semana<br>
+										    <br>
+											  Actividades complementarias incluidas:<br><ul>
+												<li style="padding-bottom: 7px">Desayuno diario</li>
+												<li style="padding-bottom: 7px">Estacionamiento incluido</li>
+												<li style="padding-bottom: 7px">Internet (Wi-Fi) gratuito</li>
+												<li style="padding-bottom: 7px">Uso del gimnasio 24 horas incluído</li>
+												<li style="padding-bottom: 7px">Llamadas complementarias locales y 800s</li>
+											</ul>
+										¡Nos vemos en Miami!
+										  </font>
+										</td>
+									</tr>
+													<tr>
+													  <td height="15" style="line-height: 0px; font-size: 0px;border-bottom:1px solid #CCC"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="15" style="display: block;"></td>
+								  </tr>								            <tr>
+									              <td width="560" height="40" align="left" bgcolor="#99DAF8"><font style="font-family: arial; font-size: 18px; color: rgb(255, 255, 255); text-decoration: none; font-weight: bold;padding-left: 10px">Lugar del Evento</font></td>
+					              </tr>
+																						<tr>
+                <td height="5" style="line-height: 0px; font-size: 0px;border-bottom:1px solid #CCC"><img src="http://welcome.hp-ww.com/img/s.gif" width="1" height="5" style="display: block;"></td>
+              </tr>
+									<tr>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+  
+    <tr>
+      <td width="138" style="padding: 5px; background: #f5f5f5"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/Hotel_Providene_pic.jpg" width="120" height="120" alt=""/></td>
+      <td width="422" height="100" valign="middle" style="padding: 15px 15px 15px 0px; background: #f5f5f5"><font style="font-family: arial; font-size: 16px; color:#696a6d; line-height: 16px"><b>Hotel Provident Doral At The Blue</b><br></font>
+        <font style="font-family: arial; font-size: 14px; color:#696a6d; line-height: 18px">5300 NW 87 Avenue <br>
+        Miami, FL, USA, 33178<br>
+        <a href="https://www.youtube.com/watch?v=IZH0bs5YJGw&feature=youtu.be">Ver tour virtual </a></font></td>
+      </tr>
+   
+  </tbody>
+</table>
+</td>
+              </tr>								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+    <tr>
+      <td bgcolor="#EFEFEF" align="left" style="padding: 20px 30px; background-color: #EFEFEF;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td style="padding-bottom: 10px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; text-align: left; font-weight: bold; color: #f48120;"><a href="http://www.arubanetworks.com/latam/" target="_blank" style="text-decoration: none;"><font color="#f48120">www.arubanetworks.com/latam</font></a></td>
+                      <td align="right"><table>
+                          <tr>
+                            <td width="21" align="left"><a href="http://www.facebook.com/arubanetworks/" target="_blank"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/aruba_facebook.png" width="21" height="21" alt="Facebook" border="0" style="display:block; border:0; max-width:21px; max-height:21px;" /></a></td>
+                            <td width="21" align="left"><a href="https://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=arubanetworks" target="_blank"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/aruba_twitter.png" width="21" height="21" alt="Twitter" border="0" style="display:block; border:0; max-width:21px; max-height:21px;" /></a></td>
+                            <td width="21" align="left"><a href="https://www.linkedin.com/company/aruba-a-hewlett-packard-enterprise-company" target="_blank"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/aruba_linkedin.png" width="21" height="21" alt="LinkedIn" border="0" style="display:block; border:0; max-width:21px; max-height:21px;" /></a></td>
+                            <td width="21" align="left"><a href="https://www.youtube.com/user/ArubaNetworks/" target="_blank"><img src="http://www.arubamarketing.net/eblast/lat_switching_training/img/aruba_youtube.png" width="21" height="21" alt="YouTube" border="0" style="display:block; border:0; max-width:21px; max-height:21px;" /></a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+            <tr>
+              <td style="font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; text-align: left; color: #A2A2A2;"> Hewlett Packard Enterprise respeta su privacidad. Hewlett Packard Enterprise usa herramientas de recopilación automática de datos para personalizar su experiencia. Si desea dejar de recibir mensajes de correo electrónico de Hewlett Packard Enterprise referentes a información y ofertas especiales, haga <a  style="color: #000;text-decoration: none;"   href="https://h41360.www4.hpe.com/unsubscribe.php?jumpid=em_qf5dmx9enz&country=WW&language=GB&e=%%=v(@encrypted_email)=%%&pid=%%jobid%%">click aquí</a>.<br>
+                <br>
+                Para obtener más información sobre las políticas y prácticas de privacidad de la empresa Hewlett Packard, por favor <br>
+                consulte nuestra<a  style="color: #000;text-decoration: none;"   href="http://www8.hp.com/us/en/hpe/privacy/ww-privacy-statements.html?jumpid=em_qf5dmx9enz"> Declaración de privacidad</a>. <br>
+                <br>
+                Para ejercer sus derechos de acceso, rectificación, oposición o eliminación, utilice el "Formulario de comentarios sobre privacidad" disponible en Personal de Hewlett Packard Enterprise <a  style="color: #000;text-decoration: none;"   href="http://www8.hp.com/uk/en/hpe/privacy/personal-data-rights.html">Data Rights</a> Notice.<br>
+                <br>
+                Copyright &copy; 2017. Aruba, a Hewlett Packard Enterprise company. Todos los derechos reservados <br>
+                3333 Scott Blvd, Santa Clara, CA 95054, +1.408.227.4500./ 02676.0818</td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>';
 			$this->email->message($texto);
 			$this->email->send();
 			$data['error'] = EXIT_SUCCESS;

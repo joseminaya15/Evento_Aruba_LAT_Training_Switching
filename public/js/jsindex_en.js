@@ -27,11 +27,11 @@ function sendInformation(){
 	var position 	= $('#position').val();
 	var country 	= $('#country').val();
 	if(name == null || name == '') {
-		msj('error', 'Nombre debe completarse');
+		msj('error', 'First Name must be completed');
 		return;
 	}
 	if(surname == null || surname == '') {
-		msj('error', 'Apellido debe completarse');
+		msj('error', 'Last Name must be completed');
 		return;
 	}
 	if(email == null || email == '') {
@@ -39,23 +39,23 @@ function sendInformation(){
 		return;
 	}
 	if(!validateEmail(email)){
-		msj('error', 'El formato de email es incorrecto');
+		msj('error', 'The email format is incorrect');
 		return;
 	}
 	if(phone == null || phone == '') {
-		msj('error', 'Teléfono debe completarse');
+		msj('error', 'Mobile Phone Number must be completed');
 		return;
 	}
 	if(company == null || company == '') {
-		msj('error', 'Empresa debe completarse');
+		msj('error', 'Company must be completed');
 		return;
 	}
 	if(position == null || position == '') {
-		msj('error', 'Cargo debe completarse');
+		msj('error', 'Job Title must be completed');
 		return;
 	}
 	if(country == null || country == '') {
-		msj('error', 'País debe completarse');
+		msj('error', 'Country must be completed');
 		return;
 	}
 	$.ajax({
@@ -76,7 +76,7 @@ function sendInformation(){
 				$('.js-input').find('select').val('0');
 				$('.js-input').find('select').selectpicker('refresh');
 				$('#confirmation').addClass('aparecer');
-				msj('success', data.msj);
+				msj('success', 'It was registered correctly');
         	}else{
         		msj('error', data.msj);
         		return;
