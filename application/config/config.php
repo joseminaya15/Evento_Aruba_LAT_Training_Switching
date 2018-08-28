@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/Evento_Aruba_LAT_Training_Switching/';
+$config['base_url'] = 'http://localhost/Evento_Aruba_LAT_Training_Switching/es/';
 
 /*
 |--------------------------------------------------------------------------

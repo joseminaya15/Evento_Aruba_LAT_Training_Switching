@@ -292,10 +292,10 @@
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsindex_es.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        var URLactual = window.location;
-        if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/es/'){
-            location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/es/';
-        }
+        // var URLactual = window.location;
+        // if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/es/'){
+        //     location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/es/';
+        // }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {

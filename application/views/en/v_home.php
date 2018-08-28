@@ -38,7 +38,7 @@
             <div class="js-home js-flex">
                 <div class="js-contenido">
                     <h2>ARUBA OS - Switching Partner Training - LATAM</h2>
-                    <p>Visibility, automation and security Challenges of the Moblie-cloud and IoT</p>
+                    <p>Visibility, automation and security Challenges of the Mobile-cloud and IoT</p>
                     <div class="js-contido__button">
                         <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button js-button--default">Agenda</a>
                         <a href="#register" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link js-button">Register</a>
@@ -292,10 +292,10 @@
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsindex_en.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        var URLactual = window.location;
-        if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/en/'){
-            location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/en/';
-        }
+        // var URLactual = window.location;
+        // if(URLactual['href'] != 'http://www.arubamarketing.net/microsite/lat_switching_training/en/'){
+        //     location.href = 'http://www.arubamarketing.net/microsite/lat_switching_training/en/';
+        // }
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
             $('select').selectpicker('mobile');
         } else {
