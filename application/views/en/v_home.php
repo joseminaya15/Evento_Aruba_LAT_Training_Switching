@@ -52,9 +52,9 @@
             <h2 class="js-title">AGENDA</h2>
             <div class="js-card">
                 <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">Wednesday 26</a></li>
-                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">Thursday 27</a></li>
-                    <li><a href="#agosto9" aria-controls="agosto9" role="tab" data-toggle="tab">Friday 28</a></li>
+                    <li class="active"><a href="#agosto7" aria-controls="agosto7" role="tab" data-toggle="tab">Monday 24</a></li>
+                    <li><a href="#agosto8" aria-controls="agosto8" role="tab" data-toggle="tab">Tuesday 25</a></li>
+                    <li><a href="#agosto9" aria-controls="agosto9" role="tab" data-toggle="tab">Wednesday 26</a></li>
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="agosto7">
@@ -158,7 +158,7 @@
     <section id="register" class="js-section js-white">
         <div class="js-container">
             <div class="js-information">
-                <h2>September 26 - 28, 2018</h2>
+                <h2>September 24 - 26, 2018</h2>
                 <p>Hotel Provident at the Blue</p>
                 <span>Miami, Fl</span>
             </div>
